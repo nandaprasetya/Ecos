@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecos</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Transition Bar -->
+    <ul class="transition">
+        <li id="transition1"></li>
+        <li id="transition2"></li>
+        <li id="transition3"></li>
+        <li id="transition4"></li>
+        <li id="transition5"></li>
+    </ul>
+
+    <!-- Transition Teks Awal -->
+    <div class="loader-area" id="area-loader">
+        <div class="loader">
+            <p id="paragraf-hallo">WELCOME</p>
+        </div>
+        <div class="area-loader-bwh" id="area-loader-bwh">
+            <div id="loader-bwh" class="loader-bwh"></div>
+        </div>
+    </div>
+    <div id="pointer" class="pointer-area">
+        <div id="content-pointer" class="pointer"></div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav container">
+        <h1>Ecos</h1>
+        <div class="nav-link">
+            <p id="nav-link1">Beranda</a>
+            <p id="nav-link2">Tentang Kami</a>
+            <p id="nav-link3">Kegiatan</a>
+            <p id="nav-link4">Galery</a>
+        </div>
+    </div>
+
+    <!-- Button Navigatin -->
+    <div id="nav-btn" class="column">
+        <div class="nav-bar" id="nav-bar1"></div>
+        <div class="nav-bar" id="nav-bar2"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <div class="nav-menu column" id="nav-menu">
+        <div class="container nav-close" style="padding: 0px 10%; justify-content: end;">
+            <img src="img/close.png" alt="" id="nav-close">
+        </div>
+        <p class="text" id="navlink1">Beranda</a>
+        <p class="text" id="navlink2">Tentang Kami</a>
+        <p class="text" id="navlink3">Kegiatan</a>
+        <p class="text" id="navlink4">Galery</a>
+    </div>
+
+    <!-- Home -->
+        <div class="home container column" id="beranda">
+            <div class="text-home">
+                <h1>Langkah Kecil Merubah Dunia</h1>
+                <p>Kerusakan Ekosistem tidak dapat dihindari di zaman sekarang, satu langkah baik dapat menciptakan langkah langkah baik berikutnya.</p>
+            </div>
+            <video src="img/backgroundhome.webm" autoplay loop muted></video>
+        </div>
+    
+    <!-- Save Section -->
+        <div class="save container p-ats">
+            <div  class="areasave areasave1">
+                <img id="pointer-hover" class="imgsave1 pointer-hover" src="img/hutan.jpg" alt="">
+            </div>
+            <div class="areasave areasave2 column">
+                <div class="text-save">
+                    <h1>Satu Langkah Menyelamatkan dunia</h1>
+                    <p>Langkah - langkah kecil untuk memperbaiki dapat membantu mempercepat perubahan menjadi lebih baik.</p>
+                </div>
+                <img id="pointer-hover" src="img/savana.jpg" alt="" class="pointer-hover">
+            </div>
+            <div class="areasave areasave3">
+                <img id="pointer-hover" class="imgsave1 pointer-hover" src="img/badak.jpg" alt="">
+            </div>
+        </div>
+    
+    <!-- Section Ancaman -->
+        <div class="ancaman container p-ats">
+            <div class="area-ancaman column">
+                <div class="text-ancaman">
+                    <h1>Ancaman <br> Ekosistem</h1>
+                    <p>Berbagai ancaman Ekosistem darat mengamcam keberlangsungan hidup mahkluh hidup.</p>
+                    <a href="">Selengkapnya</a>
+                </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div class="box-ancaman column pointer-hover">
+                <img class="img-ancaman1" src="img/kebakaran-hutan.jpg" alt="">
+                <p>Membuka lahan dengan cara membakar hutan memang sangat mudah dilakukan tetapi memiliki efek jangka panjang yang berbahaya, seperti hilangnya tempat tinggal bagi hewan.</p>
+            </div>
+            <div class="box-ancaman column pointer-hover ancaman2">
+                <p>Membuka lahan dengan cara membakar hutan memang sangat mudah dilakukan tetapi memiliki efek jangka panjang yang berbahaya, seperti hilangnya tempat tinggal bagi hewan.</p>
+                <img class="img-ancaman2" src="img/badak2.jpg" alt="">
+            </div>
+            </div>
+        </div>
+
+    <!-- Section Kegiatan -->
+        <div class="kegiatan container column p-ats" id="kegiatan">
+            <h1>Kegiatan</h1>
+            <div class="area-kegiatan container">
+                <a href="" class="box-kegiatan pointer-hover">
+                    <img src="img/kegiatan1.jpg" alt="" class="img-kegiatan">
+                    <p>memberi Makan Hewan</p>
+                </a>
+                <a href="" class="box-kegiatan pointer-hover">
+                    <img src="img/kegiatan3.jpg" alt="" class="img-kegiatan">
+                    <p>Menanam Pohon</p>
+                </a>
+                <a href="" class="box-kegiatan pointer-hover">
+                    <img src="img/kegiatan2.jpg" alt="" class="img-kegiatan">
+                    <p>Membersihkan Hutan</p>
+                </a>
+                <a href="" class="box-kegiatan pointer-hover">
+                    <img src="img/kegiatan4.jpg" alt="" class="img-kegiatan">
+                    <p>Menanam Pohon</p>
+                </a>
+                <a href="" class="box-kegiatan pointer-hover">
+                    <img src="img/kegiatan1.jpg" alt="" class="img-kegiatan">
+                    <p>memberi Makan Hewan</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section Kampanye -->
+        <div class="kampanye container p-ats">
+            <div class="text-kampanye">
+                <h1>Ayo Bergabung <br> dan Beraksi!</h1>
+                <p>Unggah Video dan Foto Anda dan Jadilah Bagian dari Perubahan memperbaiki ekosistem,Unggah video dan Foto anda untuk mendapatkan hadiah menarik.</p>
+                <a href="">Syarat dan Ketentuan</a>
+            </div>
+            <img src="img/sosialMedia.png" alt="">
+        </div>
+    
+    <!-- Section Galery -->
+    <div class="swiper swiper-container" id="galery">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/kegiatan1.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/kegiatan2.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/kegiatan3.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/kegiatan4.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/kegiatan5.jpg">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+    <!-- Footer -->
+        <div class="footer container column">
+            <div class="area-footer container">
+                <div class="footer-1 column">
+                    <div style="display: flex; align-items: center;">
+                        <img src="img/logo.png" alt="">
+                        <h1>Ecos</h1>
+                    </div>
+                    <h2>Langkah kecil Memberi Perubahan Yang Besar</h2>
+                    <div class="sosial-media">
+                        <a href=""><img src="img/instagram.png" alt=""></a>
+                        <a href=""><img src="img/facebook.png" alt=""></a>
+                        <a href=""><img src="img/twitter.png" alt=""></a>
+                        <a href=""><img src="img/youtube.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <div style="margin: 0px 40px 20px 0px;" class="column">
+                        <p>KOMUNITAS</p>
+                        <a href="">GALERY</a>
+                        <a href="">KARIR</a>
+                        <a href="">KEGIATAN</a>
+                    </div>
+                    <div>
+                        <div class="column">
+                            <p>EMAIL</p>
+                            <a href="">hello@ecos.com</a>
+                        </div>
+                        <div class="column">
+                            <p>PHONE</p>
+                            <a href="">+62 (021) 9928 9302</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="garis"></div>
+            <div style="color: #fff; font-size: 13px;">&copy; 2023 ECOS Inc. All Right Severved</div>
+        </div>
+  
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.3/smooth-scrollbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.3/plugins/overscroll.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+  effect: "coverflow",
+  loop: true,
+  grabCursor: true,
+  slidesPerView: "auto",
+  autoplay: {
+        delay: 3000,
+        disableOnInteraction: true
+      },
+  centeredSlides: true,
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 10,
+        depth: 300,
+        modifier: 2,
+        slideShadows: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
+document.querySelector(".swiper-button-next").addEventListener("click", function () {
+  swiper.slideNext();
+});
+
+document.querySelector(".swiper-button-prev").addEventListener("click", function () {
+  swiper.slidePrev();
+});
+
+    var navlink1 = document.getElementById("nav-link1");
+    var navlink2 = document.getElementById("nav-link2");
+    var navlink3 = document.getElementById("nav-link3");
+    var navlink4 = document.getElementById("nav-link4");
+    var navlink11 = document.getElementById("navlink1");
+    var navlink12 = document.getElementById("navlink2");
+    var navlink13 = document.getElementById("navlink3");
+    var navlink14 = document.getElementById("navlink4");
+    
+  navlink1.addEventListener("click", ()=>{
+  setTimeout(() =>{
+    window.location.href = "index.html#beranda";
+  }, 100);
+});
+
+navlink2.addEventListener("click", ()=>{
+  animkeluar();
+  setTimeout(() =>{
+    window.location.href = "about.html";
+  }, 1500);
+});
+
+navlink3.addEventListener("click", ()=>{
+  setTimeout(() =>{
+    window.location.href = "index.html#kegiatan";
+  }, 100);
+});
+
+navlink4.addEventListener("click", ()=>{
+  setTimeout(() =>{
+    window.location.href = "index.html#galery";
+  }, 100);
+});
+
+navlink12.addEventListener("click", ()=>{
+  navmenu.classList.remove("nav-open");
+  animkeluar();
+  setTimeout(() =>{
+    window.location.href = "about.html";
+  }, 1500)
+});
+
+navlink13.addEventListener("click", ()=>{
+  navmenu.classList.remove("nav-open");
+  setTimeout(() =>{
+    window.location.href = "index.html#kegiatan";
+  }, 100)
+});
+
+navlink14.addEventListener("click", ()=>{
+  navmenu.classList.remove("nav-open");
+  setTimeout(() =>{
+    window.location.href = "index.html#galery";
+  }, 100)
+});
+
+navlink11.addEventListener("click", ()=>{
+  navmenu.classList.remove("nav-open");
+  setTimeout(() =>{
+    window.location.href = "index.html#beranda";
+  }, 1500)
+});
+    </script>
+
+</body>
+</html>

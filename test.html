@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home" style="height: 100vh;"></div>
+
+    <span class="counter">100</span>
+    <script src="jquery-3.5.1.js"></script>
+    <div class="home" style="height: 100vh;"></div>
+
+    <script>
+    // Membuat instance Intersection Observer
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    // Cek jika elemen .counter masuk ke dalam viewport
+    if (entry.isIntersecting) {
+      // Menganimasikan counter
+      setTimeout( function(){
+    $({ Counter: 0 }).animate({
+    Counter: $('.counter').text()}, {
+    duration: 4000,
+    easing: 'swing',
+    step: function() {
+    $('.counter').text(Math.ceil(this.Counter));
+    }
+    });
+    }, 100);
+
+      // Berhenti memantau elemen
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+// Menambahkan elemen yang akan dipantau
+const elementToObserve = document.querySelector('.counter');
+observer.observe(elementToObserve);
+
+    </script>
+</body>
+</html>
